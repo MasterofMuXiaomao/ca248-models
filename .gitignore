@@ -1,0 +1,309 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# pdm-bump
+.pdm-bump/
+
+# ruff
+.ruff_cache/
+
+# vs code
+.vscode/
+
+# env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Model files
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Large data files
+data/
+datasets/
+*.h5
+*.hdf5
+*.npz
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# ONNX models
+*.onnx
+
+# CoreML models
+*.mlmodel
+
+# TensorFlow models
+*.pb
+*.ckpt*
+
+# Training checkpoints
+checkpoints/
+
+# Config files
+configs/local/
+
+# Test output
+test_output/
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# System
+*.pid
+
+# Jupyter
+.jupyter/
+
+# MyPy
+.mypy_cache/
+
+# Pyre
+.pyre/
+
+# Profiling data
+.prof
+
+# Coverage
+.coverage
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# React
+build/
+dist/
+
+# Docker
+.docker/
+
+# Kubernetes
+.kube/
+
+# Terraform
+.terraform/
+
+# Vagrant
+.vagrant/
+
+# Ansible
+.ansible/
+
+# CI/CD
+.circleci/
+.travis.yml
+.gitlab-ci.yml
+.github/
+!/.github/workflows/
+
+# Security
+.secrets/
+
+# Local development
+local_settings.py
+dev_settings.py
+
+# Documentation
+docs/build/
+docs/source/_build/
+
+# Build artifacts
+*.whl
+*.tar.gz
+
+# Model outputs
+outputs/
+predictions/
+
+# Experiment tracking
+mlruns/
+wandb/
+
+# Database
+*.db
+*.sqlite
+
+# Mobile specific
+*.ipa
+*.apk
+*.aab
+*.xcarchive
+*.app
+*.dSYM
+
+# Apple specific
+*.xcodeproj/
+*.xcworkspace/
+
+# Android specific
+*.keystore
+*.jks
+
+# Windows specific
+*.exe
+*.msi
+
+# Linux specific
+*.deb
+*.rpm
+
+# Mac specific
+*.dmg
+
+# Archive files
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+# Media files
+*.mp3
+*.wav
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# Large files (>50MB)
+**/*.bin
+**/*.pth
+**/*.pt
+!src/ca248_mobile/models/mobile/*.bin  # 模型文件除外
+
+# 忽略除移动版模型外的所有大文件
+**/*.safetensors
+!**/mobile/*.safetensors
+
+# 临时忽略一些文件用于首次提交
+!src/ca248_mobile/models/mobile/weights.bin
+!src/ca248_mobile/models/mobile/config.json
+!src/ca248_mobile/models/mobile/vocab.bin
+
+# 其他大文件
+**/dataset*/
+**/training*/
