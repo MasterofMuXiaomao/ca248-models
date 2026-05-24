@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🤔 问题咨询
+    url: https://github.com/MasterofMuXiaomao/ca248-models/discussions
+    about: 请在这里提问和讨论
+  - name: 💬 Discord社区
+    url: https://discord.gg/ca248
+    about: 加入我们的Discord社区实时交流
+  - name: 📚 文档
+    url: https://github.com/MasterofMuXiaomao/ca248-models#readme
+    about: 查看项目文档
